@@ -2,6 +2,12 @@
   "name": "love-plus",
   "author": "Varun Ramesh <varunramesh@live.com>",
   "license": "MIT",
+  "version": "0.0.1",
+  "main": "./lib/main",
+  "repository": "https://github.com/rameshvarun/love-plus",
+  "engines": {
+    "atom": "^1.0.0"
+  },
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
@@ -12,5 +18,8 @@
   "devDependencies": {
     "babel-eslint": "^4.1.0",
     "eslint": "^1.2.1"
+  },
+  "scripts": {
+    "lint": "eslint . && flow check"
   }
 }

@@ -11,9 +11,12 @@
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
-        "2.0.0": "provide"
+        "2.0.0": "getAutoCompleteProvider"
       }
     }
+  },
+  "package-dependencies": {
+    "tool-bar": "^0.1.8"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.0",

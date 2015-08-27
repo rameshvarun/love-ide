@@ -1,0 +1,16 @@
+{
+  "name": "love-plus",
+  "author": "Varun Ramesh <varunramesh@live.com>",
+  "license": "MIT",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provide"
+      }
+    }
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.0",
+    "eslint": "^1.2.1"
+  }
+}

@@ -10,10 +10,10 @@ describe('Love2D Autocompletions', () => {
 		waitsForPromise(() => atom.packages.activatePackage('love-plus'))
 
 		runs(() => {
-			var package = atom.packages.getActivePackage('love-plus');
-			invariant(package);
+			var pkg = atom.packages.getActivePackage('love-plus');
+			invariant(pkg);
 
-			provider = package.mainModule.getAutoCompleteProvider();
+			provider = pkg.mainModule.getAutoCompleteProvider();
 			expect(provider).not.toBeNull();
 		})
 	});

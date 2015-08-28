@@ -19,6 +19,6 @@
     type: "function",
     description: "Draws objects on screen.",
     url: "https://love2d.org/wiki/love.graphics.draw",
-    snippet: "love.graphics.draw(${0:drawable}, ${0:x}, ${0:y}, ${0:r}, ${0:sx}, ${0:sy}, ${0:ox}, ${0:oy}, ${0:kx}, ${0:ky})",
-  }
+    snippet: "love.graphics.draw(${0:drawable}, ${1:x}, ${2:y}, ${3:r}, ${4:sx}, ${5:sy}, ${6:ox}, ${7:oy}, ${8:kx}, ${9:ky})",
+  },
 }

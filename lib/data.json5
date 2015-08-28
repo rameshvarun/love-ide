@@ -1,0 +1,24 @@
+{
+  love: {
+    type: "module",
+    description: "The root LOVE module.",
+    url: "https://love2d.org/wiki/love"
+  },
+  "love.graphics": {
+    type: "module",
+    description: "Drawing of shapes and images, management of screen geometry.",
+    url: "https://love2d.org/wiki/love.graphics",
+  },
+  "love.draw": {
+    type: "callback",
+    description: "Callback function used to draw on the screen every frame.",
+    url: "https://love2d.org/wiki/love.draw",
+    snippet: "function love.draw()\n\t${0:-- body...}\nend",
+  },
+  "love.graphics.draw": {
+    type: "function",
+    description: "Draws objects on screen.",
+    url: "https://love2d.org/wiki/love.graphics.draw",
+    snippet: "love.graphics.draw(${0:drawable}, ${0:x}, ${0:y}, ${0:r}, ${0:sx}, ${0:sy}, ${0:ox}, ${0:oy}, ${0:kx}, ${0:ky})",
+  }
+}

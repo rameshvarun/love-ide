@@ -1,6 +1,8 @@
 'use babel';
 /* @flow */
 
+import invariant from 'assert';
+
 describe('Love2D Autocompletions', () => {
 	var provider;
 
@@ -8,7 +10,10 @@ describe('Love2D Autocompletions', () => {
 		waitsForPromise(() => atom.packages.activatePackage('love-plus'))
 
 		runs(() => {
-			provider = atom.packages.getActivePackage('love-plus').mainModule.getAutoCompleteProvider();
+			var package = atom.packages.getActivePackage('love-plus');
+			invariant(package);
+
+			provider = package.mainModule.getAutoCompleteProvider();
 			expect(provider).not.toBeNull();
 		})
 	});

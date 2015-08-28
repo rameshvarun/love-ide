@@ -10,3 +10,10 @@ declare function describe(expectation: string, spec: () => void): void;
 declare function xdescribe(expectation: string, spec: () => void): void;
 
 declare function runs(asyncMethod: Function): void;
+
+declare function expect(value: any): JasmineMatcher;
+
+type JasmineMatcher = {
+  not: JasmineMatcher;
+  toBeNull(): boolean;
+};

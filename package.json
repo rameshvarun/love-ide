@@ -6,7 +6,7 @@
   "main": "./lib/main",
   "repository": "https://github.com/rameshvarun/love-plus",
   "engines": {
-    "atom": "^1.0.0"
+    "atom": "^1.0.9"
   },
   "providedServices": {
     "autocomplete.provider": {
@@ -16,7 +16,8 @@
     }
   },
   "package-dependencies": {
-    "tool-bar": "^0.1.8"
+    "tool-bar": "^0.1.8",
+    "language-lua": "^0.9.4"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.0",
@@ -24,5 +25,8 @@
   },
   "scripts": {
     "lint": "eslint . && flow check"
+  },
+  "dependencies": {
+    "json5": "^0.4.0"
   }
 }

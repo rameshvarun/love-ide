@@ -3,4 +3,8 @@ Utilities for writing Love2D games in Atom.
 
 ## Features
 - Autocomplete
-- Run Toolbar Icon
+
+## TODO
+- Enum Autocomplete
+- Launch LOVE
+- Run Icon in Toolbar

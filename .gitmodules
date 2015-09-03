@@ -4,3 +4,6 @@
 [submodule "data/dkjson"]
 	path = data/dkjson
 	url = https://github.com/LuaDist/dkjson.git
+[submodule "data/underscore.lua"]
+	path = data/underscore.lua
+	url = https://github.com/mirven/underscore.lua.git

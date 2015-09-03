@@ -15,6 +15,13 @@
       }
     }
   },
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0.1.0": "consumeToolBar"
+      }
+    }
+  },
   "package-dependencies": [
     ["tool-bar", "0.1.8"],
     ["language-lua", "0.9.4"],

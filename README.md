@@ -2,6 +2,12 @@
 Utilities for writing Love2D games in Atom.
 
 ## Features
+- Automatically installs the following:
+  - tool-bar
+  - language-lua
+  - linter
+  - linter-luacheck
+  - hyperclick
 - Autocomplete
 
 ## TODO

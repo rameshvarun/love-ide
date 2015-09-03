@@ -1,0 +1,6 @@
+[submodule "data/love-api"]
+	path = data/love-api
+	url = https://github.com/rm-code/love-api.git
+[submodule "data/dkjson"]
+	path = data/dkjson
+	url = https://github.com/LuaDist/dkjson.git

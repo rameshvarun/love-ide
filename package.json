@@ -47,6 +47,18 @@
     [
       "nuclide-quick-open",
       "0.0.30"
+    ],
+    [
+      "font-viewer",
+      "0.3.0"
+    ],
+    [
+      "language-glsl",
+      "2.0.1"
+    ],
+    [
+      "autocomplete-glsl",
+      "0.2.3"
     ]
   ],
   "devDependencies": {

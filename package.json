@@ -1,10 +1,10 @@
 {
-  "name": "love-plus",
+  "name": "love-ide",
   "author": "Varun Ramesh <varunramesh@live.com>",
   "license": "MIT",
   "version": "0.0.1",
   "main": "./lib/main",
-  "repository": "https://github.com/rameshvarun/love-plus",
+  "repository": "https://github.com/rameshvarun/love-ide",
   "engines": {
     "atom": "^1.0.9"
   },

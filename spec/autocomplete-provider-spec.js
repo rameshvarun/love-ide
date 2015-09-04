@@ -7,10 +7,10 @@ describe('Love2D Autocompletions', () => {
 	var provider;
 
 	beforeEach(() => {
-		waitsForPromise(() => atom.packages.activatePackage('love-plus'))
+		waitsForPromise(() => atom.packages.activatePackage('love-ide'))
 
 		runs(() => {
-			var pkg = atom.packages.getActivePackage('love-plus');
+			var pkg = atom.packages.getActivePackage('love-ide');
 			invariant(pkg);
 
 			provider = pkg.mainModule.getAutoCompleteProvider();

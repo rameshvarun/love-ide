@@ -43,6 +43,10 @@
     [
       "hyperclick",
       "0.0.30"
+    ],
+    [
+      "nuclide-quick-open",
+      "0.0.30"
     ]
   ],
   "devDependencies": {

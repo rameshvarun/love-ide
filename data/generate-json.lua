@@ -18,9 +18,12 @@ output['love'] = {
 function generateArgs(func)
   local variant = func.variants[1]
   local arguments = ""
+
+  local i = 0
   if variant.arguments ~= nil then
     arguments = _(variant.arguments):chain():map(function(arg)
-      return arg.name
+      i = i + 1
+      return "${" .. i .. ":" .. arg.name .. "}"
     end):join(', '):value()
   end
   return arguments

@@ -1,8 +1,9 @@
 {
   "name": "love-ide",
+  "description": "Tools for making LÖVE games.",
   "author": "Varun Ramesh <varunramesh@live.com>",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "main": "./lib/main",
   "repository": "https://github.com/rameshvarun/love-ide",
   "engines": {

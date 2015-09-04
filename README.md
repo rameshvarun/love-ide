@@ -13,6 +13,19 @@ This package automatically installs the following packages, which provide additi
   - [linter-luacheck](https://atom.io/packages/linter-luacheck)
   - [hyperclick](https://atom.io/packages/hyperclick)
 
+## Contributing
+```bash
+# Clone the repo recursively, and cd in.
+git clone --recursive https://github.com/rameshvarun/love-ide.git
+cd love-ide
+
+# Install all the dependencies.
+npm install
+
+# Symlink the package into ~/.atom/packages.
+apm link
+```
+
 ## TODO
 - Jump-to-definition (via Hyperclick).
 - Run Love Command.

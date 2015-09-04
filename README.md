@@ -4,7 +4,11 @@ Utilities for writing Love2D games in Atom.
 ## Features
 ### Run Icon in Toolbar
 ![](./demo/run.png)
+
 ### Autocomplete
+![](./demo/autocomplete.png)
+Autocompletes snippets for calling methods and defining callbacks. Provides descriptions, as well as links to the wiki page.
+
 ### Auto-Install
 This package automatically installs the following packages, which provide additional features:
   - [tool-bar](https://atom.io/packages/tool-bar)

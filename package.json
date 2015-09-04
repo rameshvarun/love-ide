@@ -3,7 +3,7 @@
   "description": "Tools for making LÖVE games.",
   "author": "Varun Ramesh <varunramesh@live.com>",
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "./lib/main",
   "repository": "https://github.com/rameshvarun/love-ide",
   "engines": {
@@ -24,11 +24,26 @@
     }
   },
   "package-dependencies": [
-    ["tool-bar", "0.1.8"],
-    ["language-lua", "0.9.4"],
-    ["linter", "1.5.0"],
-    ["linter-luacheck", "1.1.2"],
-    ["hyperclick", "0.0.30"]
+    [
+      "tool-bar",
+      "0.1.8"
+    ],
+    [
+      "language-lua",
+      "0.9.4"
+    ],
+    [
+      "linter",
+      "1.5.0"
+    ],
+    [
+      "linter-luacheck",
+      "1.1.2"
+    ],
+    [
+      "hyperclick",
+      "0.0.30"
+    ]
   ],
   "devDependencies": {
     "babel-eslint": "^4.1.0",

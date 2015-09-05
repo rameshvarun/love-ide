@@ -9,6 +9,10 @@ Utilities for writing Love2D games in Atom.
 ![](https://raw.githubusercontent.com/rameshvarun/love-ide/master/demo/autocomplete.png)
 Autocompletes snippets for calling methods and defining callbacks. Provides descriptions, as well as links to the wiki page.
 
+### Click to Definition
+![](https://raw.githubusercontent.com/rameshvarun/love-ide/master/demo/clicktodef.gif)
+Using cmd-click (Mac OSX) or alt-click (Windows), you can click on love functions, which opens up the corresponding Wiki page.
+
 ### Auto-Install
 This package automatically installs the following packages, which provide additional features:
   - [tool-bar](https://atom.io/packages/tool-bar)

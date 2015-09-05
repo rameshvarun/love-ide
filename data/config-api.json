@@ -1,0 +1,206 @@
+{
+  "t.console": {
+    "default": "false",
+    "description": "Attach a console, Windows only.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#console"
+  },
+  "t.identity": {
+    "default": "nil",
+    "description": "The name of the save directory.",
+    "type": "string",
+    "url": "https://love2d.org/wiki/Config_Files#identity"
+  },
+  "t.modules.audio": {
+    "default": "true",
+    "description": "Enable the audio module.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#modules.audio"
+  },
+  "t.modules.event": {
+    "default": "true",
+    "description": "Enable the event module.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#modules.event"
+  },
+  "t.modules.graphics": {
+    "default": "true",
+    "description": "Enable the graphics module.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#modules.graphics"
+  },
+  "t.modules.image": {
+    "default": "true",
+    "description": "Enable the image module.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#modules.image"
+  },
+  "t.modules.joystick": {
+    "default": "true",
+    "description": "Enable the joystick module.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#modules.joystick"
+  },
+  "t.modules.keyboard": {
+    "default": "true",
+    "description": "Enable the keyboard module.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#modules.keyboard"
+  },
+  "t.modules.math": {
+    "default": "true",
+    "description": "Enable the math module.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#modules.math"
+  },
+  "t.modules.mouse": {
+    "default": "true",
+    "description": "Enable the mouse module.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#modules.mouse"
+  },
+  "t.modules.physics": {
+    "default": "true",
+    "description": "Enable the physics module.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#modules.physics"
+  },
+  "t.modules.sound": {
+    "default": "true",
+    "description": "Enable the sound module.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#modules.sound"
+  },
+  "t.modules.system": {
+    "default": "true",
+    "description": "Enable the system module.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#modules.system"
+  },
+  "t.modules.thread": {
+    "default": "true",
+    "description": "Enable the thread module.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#modules.thread"
+  },
+  "t.modules.timer": {
+    "default": "true",
+    "description": "Enable the timer module.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#modules.timer"
+  },
+  "t.modules.window": {
+    "default": "true",
+    "description": "Enable the window module.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#modules.window"
+  },
+  "t.version": {
+    "default": "\"0.9.2\"",
+    "description": "The LOVE version this game was made for.",
+    "type": "string",
+    "url": "https://love2d.org/wiki/Config_Files#version"
+  },
+  "t.window.borderless": {
+    "default": "false",
+    "description": "Remove all border visuals from the window.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#window.borderless"
+  },
+  "t.window.display": {
+    "default": "1",
+    "description": "Index of the monitor to show the window in.",
+    "type": "number",
+    "url": "https://love2d.org/wiki/Config_Files#window.display"
+  },
+  "t.window.fsaa": {
+    "default": "0",
+    "description": "The number of samples to use with multi-sampled antialiasing.",
+    "type": "number",
+    "url": "https://love2d.org/wiki/Config_Files#window.fsaa"
+  },
+  "t.window.fullscreen": {
+    "default": "false",
+    "description": "Enable fullscreen.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#window.fullscreen"
+  },
+  "t.window.fullscreentype": {
+    "default": "\"normal\"",
+    "description": "Standard fullscreen or desktop fullscreen mode.",
+    "type": "string",
+    "url": "https://love2d.org/wiki/Config_Files#window.fullscreentype"
+  },
+  "t.window.height": {
+    "default": "600",
+    "description": "The window height.",
+    "type": "number",
+    "url": "https://love2d.org/wiki/Config_Files#window.height"
+  },
+  "t.window.highdpi": {
+    "default": "false",
+    "description": "Enable high-dpi mode for the window on a Retina display.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#window.highdpi"
+  },
+  "t.window.icon": {
+    "default": "nil",
+    "description": "Filepath to an image to use as the window's icon.",
+    "type": "string",
+    "url": "https://love2d.org/wiki/Config_Files#window.icon"
+  },
+  "t.window.minheight": {
+    "default": "1",
+    "description": "Minimum window height if the window is resizable.",
+    "type": "number",
+    "url": "https://love2d.org/wiki/Config_Files#window.minheight"
+  },
+  "t.window.minwidth": {
+    "default": "1",
+    "description": "Minimum window width if the window is resizable.",
+    "type": "number",
+    "url": "https://love2d.org/wiki/Config_Files#window.minwidth"
+  },
+  "t.window.resizable": {
+    "default": "false",
+    "description": "Let the window be user-resizable.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#window.resizable"
+  },
+  "t.window.srgb": {
+    "default": "false",
+    "description": "Enable sRGB gamma correction when drawing to the screen.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#window.srgb"
+  },
+  "t.window.title": {
+    "default": "\"Untitled\"",
+    "description": "The window title.",
+    "type": "string",
+    "url": "https://love2d.org/wiki/Config_Files#window.title"
+  },
+  "t.window.vsync": {
+    "default": "true",
+    "description": "Enable vertical sync.",
+    "type": "boolean",
+    "url": "https://love2d.org/wiki/Config_Files#window.vsync"
+  },
+  "t.window.width": {
+    "default": "800",
+    "description": "The window width.",
+    "type": "number",
+    "url": "https://love2d.org/wiki/Config_Files#window.width"
+  },
+  "t.window.x": {
+    "default": "nil",
+    "description": "The x-coordinate of the window's position in the specified display.",
+    "type": "number",
+    "url": "https://love2d.org/wiki/Config_Files#window.x"
+  },
+  "t.window.y": {
+    "default": "nil",
+    "description": "The y-coordinate of the window's position in the specified display.",
+    "type": "number",
+    "url": "https://love2d.org/wiki/Config_Files#window.y"
+  }
+}

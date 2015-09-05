@@ -23,7 +23,6 @@ This package automatically installs the following packages, which provide additi
   - [language-lua](https://atom.io/packages/language-lua)
   - [linter](https://atom.io/packages/linter)
   - [hyperclick](https://atom.io/packages/hyperclick)
-  - [nuclide-quick-open](https://atom.io/packages/nuclide-quick-open)
   - [language-glsl](https://atom.io/packages/language-glsl)
   - [autocomplete-glsl](https://atom.io/packages/autocomplete-glsl)
 

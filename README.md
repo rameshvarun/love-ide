@@ -38,10 +38,3 @@ npm install
 # Symlink the package into ~/.atom/packages.
 apm link
 ```
-
-## TODO
-- Jump-to-definition (via Hyperclick).
-- Run Love Command.
-- Hooks for various optional packages.
-- Get Lua linting working.
-- Some sort of Debug system?

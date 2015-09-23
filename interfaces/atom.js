@@ -28,8 +28,15 @@ declare class atom$PackageManager {
   getActivePackage(name: string): ?atom$Package;
 };
 
+declare class atom$NotificationManager {
+  addFatalError(message: string, {
+    detail?: string
+  }): void;
+}
+
 declare class atom$AtomGlobal {
   packages: atom$PackageManager;
+  notifications: atom$NotificationManager;
 };
 
 declare var atom: atom$AtomGlobal;

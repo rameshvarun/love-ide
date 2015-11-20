@@ -9,18 +9,6 @@
   "engines": {
     "atom": "^1.0.9"
   },
-  "providedServices": {
-    "autocomplete.provider": {
-      "versions": {
-        "2.0.0": "getAutoCompleteProvider"
-      }
-    },
-    "hyperclick.provider": {
-      "versions": {
-        "0.0.0": "getHyperclickProvider"
-      }
-    }
-  },
   "consumedServices": {
     "tool-bar": {
       "versions": {
@@ -56,6 +44,14 @@
     [
       "autocomplete-glsl",
       "0.2.3"
+    ],
+    [
+      "autocomplete-love",
+      "0.1.0"
+    ],
+    [
+      "hyperclick-love",
+      "0.1.0"
     ]
   ],
   "devDependencies": {
@@ -66,7 +62,6 @@
     "lint": "eslint . && flow check"
   },
   "dependencies": {
-    "fuzzaldrin": "^2.1.0",
     "log4js": "^0.6.26",
     "semver": "^5.0.1"
   }

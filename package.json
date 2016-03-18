@@ -16,43 +16,16 @@
       }
     }
   },
-  "package-dependencies": [
-    [
-      "tool-bar",
-      "0.1.8"
-    ],
-    [
-      "language-lua",
-      "0.9.4"
-    ],
-    [
-      "linter",
-      "1.5.0"
-    ],
-    [
-      "linter-luaparse",
-      "0.2.0"
-    ],
-    [
-      "hyperclick",
-      "0.0.32"
-    ],
-    [
-      "language-glsl",
-      "2.0.1"
-    ],
-    [
-      "autocomplete-glsl",
-      "0.2.3"
-    ],
-    [
-      "autocomplete-love",
-      "0.1.0"
-    ],
-    [
-      "hyperclick-love",
-      "0.1.0"
-    ]
+  "package-deps": [
+    "tool-bar",
+    "language-lua",
+    "linter",
+    "linter-luaparse",
+    "hyperclick",
+    "language-glsl",
+    "autocomplete-glsl",
+    "autocomplete-love",
+    "hyperclick-love"
   ],
   "devDependencies": {
     "babel-eslint": "^4.1.0",
@@ -62,6 +35,7 @@
     "lint": "eslint . && flow check"
   },
   "dependencies": {
+    "atom-package-deps": "^4.0.1",
     "log4js": "^0.6.26",
     "semver": "^5.0.1"
   }

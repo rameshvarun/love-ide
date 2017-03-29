@@ -28,15 +28,14 @@
     "hyperclick-love"
   ],
   "devDependencies": {
-    "babel-eslint": "^4.1.0",
-    "eslint": "^1.2.1"
+    "babel-eslint": "^7.2.1",
+    "eslint": "^3.18.0"
   },
   "scripts": {
     "lint": "eslint . && flow check"
   },
   "dependencies": {
-    "atom-package-deps": "^4.0.1",
-    "log4js": "^0.6.26",
-    "semver": "^5.0.1"
+    "atom-package-deps": "^4.5.0",
+    "semver": "^5.3.0"
   }
 }

@@ -1,20 +1,14 @@
 # love-ide
 This package auto-installs several utilities for writing Love2D games in Atom. The individual packages can also be installed separately.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-
 - [Features](#features)
   - [Run Icon in Toolbar](#run-icon-in-toolbar)
-  - [Love API Autocomplete (via [autocomplete-love](https://atom.io/packages/autocomplete-love))](#love-api-autocomplete-via-autocomplete-lovehttpsatomiopackagesautocomplete-love)
-  - [Love API Click to Definition (via [hyperclick-love](https://atom.io/packages/hyperclick-love))](#love-api-click-to-definition-via-hyperclick-lovehttpsatomiopackageshyperclick-love)
-  - [Lua Syntax Checking (via [linter-luaparse](https://atom.io/packages/linter-luaparse))](#lua-syntax-checking-via-linter-luaparsehttpsatomiopackageslinter-luaparse)
-  - [GLSL Autocomplete (via [autocomplete-glsl](https://atom.io/packages/autocomplete-glsl))](#glsl-autocomplete-via-autocomplete-glslhttpsatomiopackagesautocomplete-glsl)
+  - [Love API Autocomplete](#love-api-autocomplete-via-autocomplete-lovehttpsatomiopackagesautocomplete-love)
+  - [Love API Click to Definition](#love-api-click-to-definition-via-hyperclick-lovehttpsatomiopackageshyperclick-love)
+  - [Lua Syntax Checking](#lua-syntax-checking-via-linter-luaparsehttpsatomiopackageslinter-luaparse)
+  - [GLSL Autocomplete](#glsl-autocomplete-via-autocomplete-glslhttpsatomiopackagesautocomplete-glsl)
 - [Full Package List](#full-package-list)
 - [Contributing](#contributing)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Features
 `love-ide` auto-installs packages that provide the following features.
@@ -59,13 +53,5 @@ This package automatically installs the following packages (if not already insta
 
 ## Contributing
 ```bash
-# Clone the repo recursively, and cd in.
-git clone --recursive https://github.com/rameshvarun/love-ide.git
-cd love-ide
-
-# Install all the dependencies.
-npm install
-
-# Symlink the package into ~/.atom/packages.
-apm link
+apm dev love-ide
 ```

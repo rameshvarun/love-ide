@@ -15,7 +15,6 @@ echo Building...
 copy /by love.exe+compressed.zip "%CurrDirName%.exe"
 del /f compressed.zip
 del /f love.exe
-start explorer.exe .
 goto :end
 
 :searchInEnVar

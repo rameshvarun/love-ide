@@ -2,7 +2,7 @@
 This package auto-installs several utilities for writing Love2D games in Atom. The individual packages can also be installed separately.
 
 - [Features](#features)
-  - [Run Icon in Toolbar](#run-icon-in-toolbar)
+  - [Run and Build Icon in Toolbar](#run-and-build-icon-in-toolbar)
   - [Love API Autocomplete](#love-api-autocomplete-via-autocomplete-lovehttpsatomiopackagesautocomplete-love)
   - [Love API Click to Definition](#love-api-click-to-definition-via-hyperclick-lovehttpsatomiopackageshyperclick-love)
   - [Lua Syntax Checking](#lua-syntax-checking-via-linter-luaparsehttpsatomiopackageslinter-luaparse)
@@ -13,10 +13,11 @@ This package auto-installs several utilities for writing Love2D games in Atom. T
 ## Features
 `love-ide` auto-installs packages that provide the following features.
 
-### Run Icon in Toolbar
+### Run and Build Icon in Toolbar
 ![](https://raw.githubusercontent.com/rameshvarun/love-ide/master/demo/run.png)
 
-Runs `love .` in the project directory. As of now, this can't be installed separately.
+The first runs `love .` in the project directory, the other one makes an .exe file (or a .love file if you're not using Windows).
+As of now, this can't be installed separately.
 
 ### Love API Autocomplete (via [autocomplete-love](https://atom.io/packages/autocomplete-love))
 ![](https://raw.githubusercontent.com/rameshvarun/love-ide/master/demo/autocomplete.png)

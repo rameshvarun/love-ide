@@ -41,7 +41,9 @@ goto :end
 
 :usage
 echo Error: missing argument.
-echo USAGE: %~nx0 TargetDirectory [love.exe path]
+echo USAGE: %~nx0 ProjectDirectory [love.exe]
+echo.
+echo If the love.exe path is missing from the arguments it will be searched in the PATH environment variable.
 pause
 
 :end

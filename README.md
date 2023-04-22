@@ -1,4 +1,7 @@
 # love-ide
+
+> This repository is now archived due the the [deprecation of Atom](https://github.blog/2022-06-08-sunsetting-atom/).
+
 This package auto-installs several utilities for writing Love2D games in Atom. The individual packages can also be installed separately.
 
 - [Features](#features)
@@ -14,28 +17,28 @@ This package auto-installs several utilities for writing Love2D games in Atom. T
 `love-ide` auto-installs packages that provide the following features.
 
 ### Run Icon in Toolbar
-![](https://raw.githubusercontent.com/rameshvarun/love-ide/master/demo/run.png)
+![](./screenshots/run.png)
 
 Runs `love .` in the project directory. As of now, this can't be installed separately.
 
 ### Love API Autocomplete (via [autocomplete-love](https://atom.io/packages/autocomplete-love))
-![](https://raw.githubusercontent.com/rameshvarun/love-ide/master/demo/autocomplete.png)
+![](./screenshots/autocomplete.png)
 
 Autocompletes snippets for calling methods and defining callbacks. Provides descriptions, as well as links to the wiki page.
 
 ### Love API Click to Definition (via [hyperclick-love](https://atom.io/packages/hyperclick-love))
-![](https://raw.githubusercontent.com/rameshvarun/love-ide/master/demo/clicktodef.gif)
+![](./screenshots/clicktodef.gif)
 
 Using cmd-click (Mac OSX) or alt-click (Windows), you can click on love functions, which opens up the corresponding Wiki page.
 
 ### Lua Syntax Checking (via [linter-luaparse](https://atom.io/packages/linter-luaparse))
-![](https://raw.githubusercontent.com/rameshvarun/linter-luaparse/master/demo.png)
+![](./screenshots/linter.png)
 
 Basic Lua syntax checking.
 
 ### GLSL Autocomplete (via [autocomplete-glsl](https://atom.io/packages/autocomplete-glsl))
 
-![Imgur](http://i.imgur.com/aoW4bWq.gif)
+![Imgur](./screenshots/glsl.gif)
 
 Tools for writing vertex and fragment shaders.
 
